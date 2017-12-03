@@ -2,7 +2,6 @@
 
 echo "How many files are in the current directory? Guess the number."
 
-read guess
 
 number_of_files_in_directory=$(ls |wc -w)
 
@@ -21,10 +20,10 @@ fi
 #a loop functin for the user the guess the number until it is correct
 while [[ $guess -ne $number_of_files_in_directory ]]
 do
+read guess
 howBig $number_of_files_in_directory $guess
 echo "Try agian: "
-read guess
 done
 
 
-howBig $number_of_files_in_directory $guess
+

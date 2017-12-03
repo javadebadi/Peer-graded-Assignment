@@ -1,3 +1,5 @@
 # Peer-graded Assignment: Guessing Game
-Sat Dec  2 23:21:52 IRST 2017
-30
+## Date: 
+Sun Dec  3 22:49:22 IRST 2017
+## Number of lines in the guessinggame.sh: 
+29
